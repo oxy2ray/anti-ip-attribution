@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-set-reject.list v0.3.1 621725ad7889dc06f39260a29fc1487d81eb0073
+# anti-ip-attribution rule-set-reject.list v0.3.1 6d2ef9e80a6a27684dc7074a0b9227a9326ed5ff
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash RULE-SET
 DOMAIN,httpdns.bilivideo.com
@@ -21,4 +21,16 @@ IP-CIDR,112.64.218.119/32,no-resolve
 IP-CIDR,112.65.200.117/32,no-resolve
 IP-CIDR,118.89.204.198/23,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/40,no-resolve
+DOMAIN-SUFFIX,gjfzpt.cn
+IP-CIDR,219.143.187.136/32,no-resolve
 IP-CIDR,119.29.29.98/32,no-resolve
+DOMAIN,api.installer.xiaomi.com
+DOMAIN,tracking.miui.com
+DOMAIN,tracking.intl.miui.com
+DOMAIN,tracking.rus.miui.com
+DOMAIN,tracking.india.miui.com
+DOMAIN-SUFFIX,sec.miui.com
+DOMAIN-SUFFIX,sec.intl.miui.com
+DOMAIN,api.sec.miui.com
+DOMAIN,staging.sec.miui.com
+DOMAIN,a0.app.xiaomi.com

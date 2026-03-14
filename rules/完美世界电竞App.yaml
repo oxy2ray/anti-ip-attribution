@@ -17,6 +17,6 @@ config:
         
 # ======= 完美世界电竞App ======= #
 
-        # issues#65
-        - DOMAIN,api.wmpvp.com
+        # # issues#65
+        # - DOMAIN,api.wmpvp.com
         

@@ -23,4 +23,4 @@ config:
         # issue#47提供
         - DOMAIN,bbs.nga.cn
         - DOMAIN,nga.178.com
-        
+        # 

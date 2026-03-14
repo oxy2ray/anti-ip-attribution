@@ -17,6 +17,6 @@ config:
         
 # ======= 网易大神 ======= #
 
-        # issue#17提供
-        - DOMAIN,god.gameyw.netease.com
+        # # issue#17提供
+        # - DOMAIN,god.gameyw.netease.com
         

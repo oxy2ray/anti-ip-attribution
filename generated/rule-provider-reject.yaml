@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-provider-reject.yaml v0.3.1 621725ad7889dc06f39260a29fc1487d81eb0073
+# anti-ip-attribution rule-provider-reject.yaml v0.3.1 6d2ef9e80a6a27684dc7074a0b9227a9326ed5ff
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash的Rule Provider功能，详见https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 payload:
@@ -22,4 +22,16 @@ payload:
 - IP-CIDR,112.65.200.117/32,REJECT,no-resolve
 - IP-CIDR,118.89.204.198/23,REJECT,no-resolve
 - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/40,REJECT,no-resolve
+- DOMAIN-SUFFIX,gjfzpt.cn,REJECT
+- IP-CIDR,219.143.187.136/32,REJECT,no-resolve
 - IP-CIDR,119.29.29.98/32,REJECT,no-resolve
+- DOMAIN,api.installer.xiaomi.com,REJECT
+- DOMAIN,tracking.miui.com,REJECT
+- DOMAIN,tracking.intl.miui.com,REJECT
+- DOMAIN,tracking.rus.miui.com,REJECT
+- DOMAIN,tracking.india.miui.com,REJECT
+- DOMAIN-SUFFIX,sec.miui.com,REJECT
+- DOMAIN-SUFFIX,sec.intl.miui.com,REJECT
+- DOMAIN,api.sec.miui.com,REJECT
+- DOMAIN,staging.sec.miui.com,REJECT
+- DOMAIN,a0.app.xiaomi.com,REJECT
