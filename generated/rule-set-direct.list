@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-set-direct.list v0.3.1 6d2ef9e80a6a27684dc7074a0b9227a9326ed5ff
+# anti-ip-attribution rule-set-direct.list v0.3.1 152938bcced8cc07072a14427c37f553d4aea823
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash RULE-SET
 DOMAIN-SUFFIX,bilivideo.com
@@ -7,5 +7,3 @@ DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,szbdyd.com
 DOMAIN-SUFFIX,lf127.net
-DOMAIN,china-img.soulapp.cn
-DOMAIN,img.soulapp.cn

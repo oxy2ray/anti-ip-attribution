@@ -17,5 +17,5 @@ config:
         
 # ======= 森空岛 ======= #
 
-        - DOMAIN,zonai.skland.com
-        
+        # - DOMAIN,zonai.skland.com
+        # 
