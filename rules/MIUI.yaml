@@ -25,9 +25,9 @@ config:
         - DOMAIN,tracking.rus.miui.com,REJECT
         - DOMAIN,tracking.india.miui.com,REJECT
         # 病毒扫描
-        - DOMAIN-SUFFIX,sec.miui.com,REJECT
-        - DOMAIN-SUFFIX,sec.intl.miui.com,REJECT
-        - DOMAIN,api.sec.miui.com,REJECT
-        - DOMAIN,staging.sec.miui.com,REJECT
-        - DOMAIN,a0.app.xiaomi.com,REJECT
+        # - DOMAIN-SUFFIX,sec.miui.com,REJECT
+        # - DOMAIN-SUFFIX,sec.intl.miui.com,REJECT
+        # - DOMAIN,api.sec.miui.com,REJECT
+        # - DOMAIN,staging.sec.miui.com,REJECT
+        # - DOMAIN,a0.app.xiaomi.com,REJECT
         

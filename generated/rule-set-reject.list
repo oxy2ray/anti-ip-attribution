@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-set-reject.list v0.3.1 152938bcced8cc07072a14427c37f553d4aea823
+# anti-ip-attribution rule-set-reject.list v0.3.1 b37ff544a3f089b1d6689b89de1fe823a6746038
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash RULE-SET
 DOMAIN,httpdns.bilivideo.com
@@ -29,8 +29,3 @@ DOMAIN,tracking.miui.com
 DOMAIN,tracking.intl.miui.com
 DOMAIN,tracking.rus.miui.com
 DOMAIN,tracking.india.miui.com
-DOMAIN-SUFFIX,sec.miui.com
-DOMAIN-SUFFIX,sec.intl.miui.com
-DOMAIN,api.sec.miui.com
-DOMAIN,staging.sec.miui.com
-DOMAIN,a0.app.xiaomi.com

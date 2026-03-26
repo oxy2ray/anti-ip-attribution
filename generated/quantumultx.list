@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx.list v0.3.1 152938bcced8cc07072a14427c37f553d4aea823
+# anti-ip-attribution quantumultx.list v0.3.1 b37ff544a3f089b1d6689b89de1fe823a6746038
 # https://github.com/SunsetMkt/anti-ip-attribution
 # QuantumultX分流规则
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -64,11 +64,6 @@ DOMAIN,tracking.miui.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
 DOMAIN,tracking.rus.miui.com,REJECT
 DOMAIN,tracking.india.miui.com,REJECT
-DOMAIN-SUFFIX,sec.miui.com,REJECT
-DOMAIN-SUFFIX,sec.intl.miui.com,REJECT
-DOMAIN,api.sec.miui.com,REJECT
-DOMAIN,staging.sec.miui.com,REJECT
-DOMAIN,a0.app.xiaomi.com,REJECT
 DOMAIN-SUFFIX,douban.com,IP
 IP-CIDR,49.233.242.15/32,IP
 IP-CIDR,81.70.124.99/32,IP
